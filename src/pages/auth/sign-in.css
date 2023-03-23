@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .colors-test {
+      @apply h-10 w-10 bg-white absolute;
+    }
+  }
